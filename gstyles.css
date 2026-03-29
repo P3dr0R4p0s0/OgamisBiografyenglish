@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #141414;
+    text-align: center;
+
+    .title {
+        text-align: left;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background: linear-gradient(
+            180deg,
+            #262626,
+            #141414
+        );
+    }
+
+    .linha {
+        height: 4px;
+        width: 100%;
+        opacity: 0.6;
+        background: repeating-linear-gradient(
+            -45deg,
+            black,
+            black 4px,
+            transparent 4px,
+            transparent 8px
+        );
+    }
+
+    .quebralinha {
+        clear: both;
+    }
+
+    .nome {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    .voltar {
+        background: linear-gradient(
+            #262626,
+            #141414
+        );
+        color: white;
+        float: right;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .voltar2 {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .subir {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+}   
+
+.imagem {
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.titulomeme {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
