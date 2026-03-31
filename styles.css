@@ -284,5 +284,21 @@ body {
     font-size: 10px;
 }
 
+.idioma {
+    float: left;
+}
 
+.dividioma {
+    float: left;
+    margin-top: 0;
+    font-size: 10px;
+}
+
+.botaoaviso {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+}
 /* ogami */
